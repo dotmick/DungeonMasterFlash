@@ -21,6 +21,8 @@ package data
 		private var objectListSizeInWords:int;
 		private var objectListing:ObjectListing;
 		private var maps:Array;
+		private var columns:Array;
+		private var objects:Array;
 		
 		public function DungeonDATParser( _byteArray:ByteArray )
 		{
@@ -151,6 +153,32 @@ package data
 				//trace(m + " -> " + map.width + " x " + map.height + " / " + map.level);
 			}
 			traceV2(maps[7], true, 4);
+			
+			//- 010Ch (268) 818 bytes - Index of tiles with objects on them (per column)
+			columns = [];
+			var total:int = 0;
+			for(var n:int = 0; n < maps.length; n++)
+			{
+				var w:int = maps[n].width + 1;
+				total += w;
+				
+				for(var c:int = 0; c < w; c++)
+				{
+					columns.push( {map: n,count: this.rawBytes.readUnsignedShort()} );
+				}
+			}
+			trace("columns : " + total + " words (" + total*2 + " bytes)");
+			
+			//- 043Eh (1086) 3358 bytes - List of object IDs of first objects on tiles
+			trace("Item list size : " + objectListSizeInWords);
+			objects = [];
+			for (var i:int = 0; i < objectListSizeInWords; i++) 
+			{
+				var objData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				objects.push( {position: ObjectListing.POSITION[ BinaryHelper.getDecFromBinaryRange(objData, 14, 15) ], category: ObjectListing.CATEGORY[ BinaryHelper.getDecFromBinaryRange(objData, 10, 13) ], nbInList: BinaryHelper.getDecFromBinaryRange(objData, 0, 9)} );
+				
+			}
+			trace( objects.length );
 		}
 	}
 }

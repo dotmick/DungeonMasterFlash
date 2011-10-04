@@ -2,6 +2,9 @@ package data
 {
 	public class ObjectListing
 	{
+		public static const POSITION:Array = ["north/top left", "east/top right", "south/bottom left", "west/bottom right"];
+		public static const CATEGORY:Array = ["doors", "teleporters", "wall texts", "actuators", "creatures", "weapons", "clothes", "scrolls", "potions", "containers", "misc", "unused", "unused", "unused", "missiles", "clouds"];
+		
 		public var doorsCount:int;
 		public var teleportersCount:int;
 		public var textsCount:int;
@@ -36,6 +39,24 @@ package data
 					+"), missiles(" + missilesCount
 					+"), clouds(" + cloudsCount
 					+")";
+		}
+		
+		public function getTotal():int
+		{
+			return (doorsCount+
+					teleportersCount+
+					textsCount+
+					actuatorsCount+
+					creaturesCount+
+					weaponsCount+
+					clothesCount+
+					scrollsCount+
+					potionsCount+
+					containersCount+
+					miscItemsCount+
+					missilesCount+
+					cloudsCount
+			);
 		}
 	}
 }

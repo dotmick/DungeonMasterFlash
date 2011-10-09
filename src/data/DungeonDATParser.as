@@ -3,8 +3,13 @@ package data
 	import com.doesflash.utils.traceV2;
 	import com.dotmick.utils.BinaryHelper;
 	
+	import data.champions.ChampionData;
+	import data.objects.Door;
+	
 	import flash.utils.ByteArray;
 	import flash.utils.flash_proxy;
+	
+	import flashx.textLayout.utils.CharacterUtil;
 
 	public class DungeonDATParser extends DATParser
 	{
@@ -23,6 +28,7 @@ package data
 		private var maps:Array;
 		private var columns:Array;
 		private var objects:Array;
+		private var championDataList:Array;
 		
 		public function DungeonDATParser( _byteArray:ByteArray )
 		{
@@ -58,7 +64,7 @@ package data
 			this.rawBytes.readByte();
 			
 			//- Text data size in words
-			textDataSizeInWords = this.rawBytes.readShort();
+			textDataSizeInWords = this.rawBytes.readUnsignedShort();
 			trace("Text data size in words : " + textDataSizeInWords + " (" + textDataSizeInWords*2 + "bytes)");
 			
 			//- Starting party position
@@ -179,6 +185,53 @@ package data
 				
 			}
 			trace( objects.length );
+			
+			//- TEXTS
+			var buffer:String = "";
+			var rawBuffer:Array = [];
+			championDataList = [];
+			
+			for (var t:int = 0; t < textDataSizeInWords; t++) 
+			{
+				var textWordData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				var code1:int = BinaryHelper.getDecFromBinaryRange(textWordData, 10, 14);
+				var code2:int = BinaryHelper.getDecFromBinaryRange(textWordData, 5, 9);
+				var code3:int = BinaryHelper.getDecFromBinaryRange(textWordData, 0, 4);
+				
+				rawBuffer.push( code1 );
+				rawBuffer.push( code2 );
+				rawBuffer.push( code3 );
+				
+				buffer += TextData.CODE[code1] + TextData.CODE[code2] + TextData.CODE[code3];
+				
+				if(code1 == 31 || code2 == 31 || code3 == 31)
+				{
+					buffer = buffer.split(TextData.CODE[31])[0];
+					TextData.rawTextsList.push( {raw: rawBuffer, translated: buffer} );
+					if(buffer.split(TextData.CODE[28])[3] == "M" || buffer.split(TextData.CODE[28])[3] == "F") championDataList.push( new ChampionData(buffer) );
+					buffer = "";
+					rawBuffer = []
+				}
+			}
+			
+			for (var doorIndex:int = 0; doorIndex < objectListing.doorsCount; doorIndex++) 
+			{
+				var tmpDoor:Door = new Door();
+				tmpDoor.nextObjectID = this.rawBytes.readUnsignedShort();
+				var tmpDoorData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				tmpDoor.unused = BinaryHelper.getDecFromBinaryRange(tmpDoorData, 9, 15);
+				tmpDoor.bashable = ( BinaryHelper.getDecFromBinaryRange(tmpDoorData, 8, 8) == 1)?true:false;
+				tmpDoor.destroyable = ( BinaryHelper.getDecFromBinaryRange(tmpDoorData, 7, 7) == 1)?true:false;
+				tmpDoor.button = ( BinaryHelper.getDecFromBinaryRange(tmpDoorData, 6, 6) == 1)?true:false;
+				tmpDoor.vertical = ( BinaryHelper.getDecFromBinaryRange(tmpDoorData, 5, 5) == 1)?true:false;
+				tmpDoor.ornate = BinaryHelper.getDecFromBinaryRange(tmpDoorData, 1, 4);
+				tmpDoor.type = BinaryHelper.getDecFromBinaryRange(tmpDoorData, 0, 0);
+				objectListing.doors.push( tmpDoor );
+			}
+			
+			
+			trace("ok");
+			
 		}
 	}
 }

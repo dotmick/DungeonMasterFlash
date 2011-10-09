@@ -19,6 +19,8 @@ package data
 		public var missilesCount:int;
 		public var cloudsCount:int;
 		
+		private var _doors:Array = [];
+		
 		public function ObjectListing()
 		{
 		}
@@ -58,5 +60,16 @@ package data
 					cloudsCount
 			);
 		}
+
+		public function get doors():Array
+		{
+			return _doors;
+		}
+
+		public function set doors(value:Array):void
+		{
+			_doors = value;
+		}
+
 	}
 }

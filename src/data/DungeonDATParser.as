@@ -5,6 +5,8 @@ package data
 	
 	import data.champions.ChampionData;
 	import data.objects.Door;
+	import data.objects.Teleporter;
+	import data.objects.Text;
 	
 	import flash.utils.ByteArray;
 	import flash.utils.flash_proxy;
@@ -208,12 +210,14 @@ package data
 				{
 					buffer = buffer.split(TextData.CODE[31])[0];
 					TextData.rawTextsList.push( {raw: rawBuffer, translated: buffer} );
+					//- CHAMPIONS INIT DATA
 					if(buffer.split(TextData.CODE[28])[3] == "M" || buffer.split(TextData.CODE[28])[3] == "F") championDataList.push( new ChampionData(buffer) );
 					buffer = "";
 					rawBuffer = []
 				}
 			}
 			
+			//- DOORS
 			for (var doorIndex:int = 0; doorIndex < objectListing.doorsCount; doorIndex++) 
 			{
 				var tmpDoor:Door = new Door();
@@ -229,6 +233,37 @@ package data
 				objectListing.doors.push( tmpDoor );
 			}
 			
+			//- TELEPORTERS
+			for (var teleIndex:int = 0; teleIndex < objectListing.teleportersCount; teleIndex++) 
+			{
+				var tmpTele:Teleporter = new Teleporter();
+				tmpTele.nextObjectID = this.rawBytes.readUnsignedShort();
+				var tmpTeleData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				tmpTele.hasSound = ( BinaryHelper.getDecFromBinaryRange(tmpTeleData, 15, 15) == 1)?true:false;
+				tmpTele.scope = Teleporter.SCOPE[ BinaryHelper.getDecFromBinaryRange(tmpTeleData, 13, 14) ];
+				tmpTele.rotationTypeAbsoluteNorth = ( BinaryHelper.getDecFromBinaryRange(tmpTeleData, 12, 12) == 1)?true:false;
+				tmpTele.rotation = Teleporter.ROTATION[ BinaryHelper.getDecFromBinaryRange(tmpTeleData, 10, 11) ];
+				tmpTele.destinationY = BinaryHelper.getDecFromBinaryRange(tmpTeleData, 5, 9); //(without map offset)
+				tmpTele.destinationX = BinaryHelper.getDecFromBinaryRange(tmpTeleData, 0, 4); //(without map offset)
+				tmpTele.destinationMap = BinaryHelper.getDecFromBinaryRange( BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2)), 8, 15);
+				objectListing.teleporters.push( tmpTele );
+			}
+			
+			//- TEXTS
+			for (var txtIndex:int = 0; txtIndex < objectListing.teleportersCount; txtIndex++) 
+			{
+				var tmpTxt:Text = new Text();
+				tmpTxt.nextObjectID = this.rawBytes.readUnsignedShort();
+				var tmpTxtData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				tmpTele.hasSound = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 15, 15) == 1)?true:false;
+				tmpTele.scope = Teleporter.SCOPE[ BinaryHelper.getDecFromBinaryRange(tmpTxtData, 13, 14) ];
+				tmpTele.rotationTypeAbsoluteNorth = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 12, 12) == 1)?true:false;
+				tmpTele.rotation = Teleporter.ROTATION[ BinaryHelper.getDecFromBinaryRange(tmpTxtData, 10, 11) ];
+				tmpTele.destinationY = BinaryHelper.getDecFromBinaryRange(tmpTxtData, 5, 9); //(without map offset)
+				tmpTele.destinationX = BinaryHelper.getDecFromBinaryRange(tmpTxtData, 0, 4); //(without map offset)
+				tmpTele.destinationMap = BinaryHelper.getDecFromBinaryRange( BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2)), 8, 15);
+				objectListing.teleporters.push( tmpTxt );
+			}
 			
 			trace("ok");
 			

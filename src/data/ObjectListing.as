@@ -20,6 +20,7 @@ package data
 		public var cloudsCount:int;
 		
 		private var _doors:Array = [];
+		private var _teleporters:Array = [];
 		
 		public function ObjectListing()
 		{
@@ -70,6 +71,17 @@ package data
 		{
 			_doors = value;
 		}
+
+		public function get teleporters():Array
+		{
+			return _teleporters;
+		}
+
+		public function set teleporters(value:Array):void
+		{
+			_teleporters = value;
+		}
+
 
 	}
 }

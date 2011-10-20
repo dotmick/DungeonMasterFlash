@@ -6,6 +6,8 @@ package
 	
 	public class DM extends Sprite
 	{
+		private static const VERSION:String = "0.1";
+		
 		private var datas:DMData;
 		
 		public function DM()

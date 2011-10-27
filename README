@@ -1,4 +1,5 @@
 About
+-------
 
 Dungeon Master Flash is an open source project created from scratch.
 The game engine is able to read and play original Dungeon Master and

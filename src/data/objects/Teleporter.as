@@ -1,11 +1,10 @@
 package data.objects
 {
-	public class Teleporter
+	public class Teleporter extends GenericObject
 	{
 		public static const SCOPE:Array = ["items", "creatures", "items/party", "everything"];
 		public static const ROTATION:Array = ["none/north", "90° clockwise/east", "180°/south", "90° anti-clockwise/west"];
 		
-		private var _nextObjectID:int;
 		private var _hasSound:Boolean;
 		private var _scope:String;
 		private var _rotationTypeAbsoluteNorth:Boolean;
@@ -16,16 +15,6 @@ package data.objects
 		
 		public function Teleporter()
 		{
-		}
-
-		public function get nextObjectID():int
-		{
-			return _nextObjectID;
-		}
-
-		public function set nextObjectID(value:int):void
-		{
-			_nextObjectID = value;
 		}
 
 		public function get hasSound():Boolean

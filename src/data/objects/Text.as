@@ -1,8 +1,7 @@
 package data.objects
 {
-	public class Text
+	public class Text extends GenericObject
 	{
-		private var _nextObjectID:int;
 		private var _referredTextInTextData:int;
 		private var _isComplex:Boolean;
 		private var _actuator:Boolean;
@@ -10,16 +9,6 @@ package data.objects
 		
 		public function Text()
 		{
-		}
-
-		public function get nextObjectID():int
-		{
-			return _nextObjectID;
-		}
-
-		public function set nextObjectID(value:int):void
-		{
-			_nextObjectID = value;
 		}
 
 		public function get referredTextInTextData():int

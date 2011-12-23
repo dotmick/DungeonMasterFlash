@@ -21,6 +21,8 @@ package data
 		
 		private var _doors:Array = [];
 		private var _teleporters:Array = [];
+		private var _texts:Array = [];
+		private var _actuators:Array = [];
 		
 		public function ObjectListing()
 		{
@@ -80,6 +82,22 @@ package data
 		public function set teleporters(value:Array):void
 		{
 			_teleporters = value;
+		}
+
+		public function get texts() : Array {
+			return _texts;
+		}
+
+		public function set texts(texts : Array) : void {
+			_texts = texts;
+		}
+
+		public function get actuators() : Array {
+			return _actuators;
+		}
+
+		public function set actuators(actuators : Array) : void {
+			_actuators = actuators;
 		}
 
 

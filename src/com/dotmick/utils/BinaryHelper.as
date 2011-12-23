@@ -25,5 +25,15 @@ package com.dotmick.utils
 			
 			return ( _binaryNumber.length >= _size )?_binaryNumber:mask.substr(0, (_size - _binaryNumber.length)) + _binaryNumber;
 		}
+		
+		public static function getBoolFromBinaryRange( _binaryNumber:String, _fromBit:int, _toBit:int ):Boolean
+		{
+			var reversed:Array = _binaryNumber.split("").reverse();
+			var f:String = "";
+			for( var i:int = _toBit; i >= _fromBit; i--){ f += reversed[i]; };
+			if( parseInt( f, 2 ) == 0 ) return false;
+			
+			return true;
+		}
 	}
 }

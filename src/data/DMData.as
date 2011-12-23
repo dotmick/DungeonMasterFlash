@@ -27,7 +27,7 @@ package data
 		{
 			trace( (event.currentTarget).name + " loaded");
 			
-			( (event.currentTarget).name == "dungeonf.dat" )?dungeonDAT = new DungeonDATParser( (event.currentTarget as File).data ):graphicsDAT = new GraphicsDATParser( (event.currentTarget as File).data );
+			( (event.currentTarget).name == "dungeonf.dat" )?(dungeonDAT = new DungeonDATParser( (event.currentTarget as File).data )):(graphicsDAT = new GraphicsDATParser( (event.currentTarget as File).data ));
 		}
 		
 		public function loadData():void

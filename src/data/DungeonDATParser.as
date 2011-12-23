@@ -1,5 +1,6 @@
 package data
 {
+	import data.objects.Actuators;
 	import com.doesflash.utils.traceV2;
 	import com.dotmick.utils.BinaryHelper;
 	
@@ -250,21 +251,51 @@ package data
 			}
 			
 			//- TEXTS
-			for (var txtIndex:int = 0; txtIndex < objectListing.teleportersCount; txtIndex++) 
+			for (var txtIndex:int = 0; txtIndex < objectListing.textsCount; txtIndex++) 
 			{
 				var tmpTxt:Text = new Text();
 				tmpTxt.nextObjectID = this.rawBytes.readUnsignedShort();
 				var tmpTxtData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
-				tmpTele.hasSound = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 15, 15) == 1)?true:false;
-				tmpTele.scope = Teleporter.SCOPE[ BinaryHelper.getDecFromBinaryRange(tmpTxtData, 13, 14) ];
-				tmpTele.rotationTypeAbsoluteNorth = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 12, 12) == 1)?true:false;
-				tmpTele.rotation = Teleporter.ROTATION[ BinaryHelper.getDecFromBinaryRange(tmpTxtData, 10, 11) ];
-				tmpTele.destinationY = BinaryHelper.getDecFromBinaryRange(tmpTxtData, 5, 9); //(without map offset)
-				tmpTele.destinationX = BinaryHelper.getDecFromBinaryRange(tmpTxtData, 0, 4); //(without map offset)
-				tmpTele.destinationMap = BinaryHelper.getDecFromBinaryRange( BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2)), 8, 15);
-				objectListing.teleporters.push( tmpTxt );
+				tmpTxt.referredTextInTextData = BinaryHelper.getDecFromBinaryRange(tmpTxtData, 3, 15);
+				tmpTxt.isComplex = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 2, 2) == 1)?true:false;
+				tmpTxt.actuator = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 1, 1) == 1)?true:false;
+				tmpTxt.visible = ( BinaryHelper.getDecFromBinaryRange(tmpTxtData, 0, 0) == 1)?true:false;
+				objectListing.texts.push( tmpTxt );
 			}
 			
+			//- ACTUATORS
+			for (var actIndex:int = 0; actIndex < objectListing.actuatorsCount; actIndex++) 
+			{
+				var tmpAct:Actuators = new Actuators();
+				tmpAct.nextObjectID = this.rawBytes.readUnsignedShort();
+				var tmpActData:String = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				tmpAct.data = BinaryHelper.getDecFromBinaryRange(tmpActData, 7, 15);
+				tmpAct.type = BinaryHelper.getDecFromBinaryRange(tmpActData, 0, 6);
+				
+				tmpActData = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				tmpAct.gfxNumber = BinaryHelper.getDecFromBinaryRange(tmpActData, 12, 15);
+				tmpAct.isActionTargetTypeLocal = ( BinaryHelper.getDecFromBinaryRange(tmpActData, 11, 11) == 1)?true:false;
+				tmpAct.delayBeforeAction = BinaryHelper.getDecFromBinaryRange(tmpActData, 7, 10);
+				tmpAct.hasSoundEffect = ( BinaryHelper.getDecFromBinaryRange(tmpActData, 6, 6) == 1)?true:false;
+				tmpAct.hasRevertEffect = ( BinaryHelper.getDecFromBinaryRange(tmpActData, 5, 5) == 1)?true:false;
+				tmpAct.actionType = Actuators.ACTION_TYPE[ BinaryHelper.getDecFromBinaryRange(tmpActData, 3, 4) ];
+				tmpAct.isOnceOnly = ( BinaryHelper.getDecFromBinaryRange(tmpActData, 2, 2) == 1)?true:false;
+				
+				tmpActData = BinaryHelper.normalizeBinaryNumber(this.rawBytes.readUnsignedShort().toString(2));
+				if( tmpAct.isActionTargetTypeLocal )
+				{
+					tmpAct.actionToExecute = BinaryHelper.getDecFromBinaryRange(tmpActData, 4, 15);
+				}
+				else
+				{
+					tmpAct.targetTileY = BinaryHelper.getDecFromBinaryRange(tmpActData, 11, 15);
+					tmpAct.targetTileX = BinaryHelper.getDecFromBinaryRange(tmpActData, 6, 10);
+					tmpAct.direction = PlayerPosition.FACING[ BinaryHelper.getDecFromBinaryRange(tmpActData, 4, 5) ];
+				}
+				
+				objectListing.actuators.push( tmpAct );
+			}
+			traceV2(objectListing.actuators[23], true, 4);
 			trace("ok");
 			
 		}

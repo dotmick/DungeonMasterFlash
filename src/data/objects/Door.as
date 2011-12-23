@@ -1,8 +1,7 @@
 package data.objects
 {
-	public class Door
+	public class Door extends GenericObject
 	{
-		private var _nextObjectID:int;
 		private var _unused:int;
 		private var _bashable:Boolean;
 		private var _destroyable:Boolean;
@@ -13,16 +12,6 @@ package data.objects
 		
 		public function Door()
 		{
-		}
-
-		public function get nextObjectID():int
-		{
-			return _nextObjectID;
-		}
-
-		public function set nextObjectID(value:int):void
-		{
-			_nextObjectID = value;
 		}
 
 		public function get unused():int

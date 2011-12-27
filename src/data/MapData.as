@@ -22,6 +22,11 @@ package data
 		private var _doorTypeZero:int;
 		private var _gfxStyle:int; //- 0h for DM and CSB
 		private var _floorAndCeilingGfxStyle:int; //- 0h for DM and CSB
+		private var _tiles:Array = new Array();
+		private var _creatures:Array = new Array();
+		private var _wallDecorations:Array = new Array();
+		private var _floorDecorations:Array = new Array();
+		private var _doorDecorations:Array = new Array();
 		
 		public function MapData()
 		{
@@ -211,6 +216,56 @@ package data
 		public function toString() : String
 		{
 			return toStr(this);
+		}
+
+		public function get tiles() : Array
+		{
+			return _tiles;
+		}
+
+		public function set tiles(tiles : Array) : void
+		{
+			_tiles = tiles;
+		}
+
+		public function get creatures() : Array
+		{
+			return _creatures;
+		}
+
+		public function set creatures(creatures : Array) : void
+		{
+			_creatures = creatures;
+		}
+
+		public function get wallDecorations() : Array
+		{
+			return _wallDecorations;
+		}
+
+		public function set wallDecorations(wallDecorations : Array) : void
+		{
+			_wallDecorations = wallDecorations;
+		}
+
+		public function get floorDecorations() : Array
+		{
+			return _floorDecorations;
+		}
+
+		public function set floorDecorations(floorDecorations : Array) : void
+		{
+			_floorDecorations = floorDecorations;
+		}
+
+		public function get doorDecorations() : Array
+		{
+			return _doorDecorations;
+		}
+
+		public function set doorDecorations(doorDecorations : Array) : void
+		{
+			_doorDecorations = doorDecorations;
 		}
 
 	}

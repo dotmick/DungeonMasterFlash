@@ -1,9 +1,10 @@
 package data
 {
+	import flash.events.EventDispatcher;
 	import flash.utils.ByteArray;
 	import flash.utils.Endian;
 
-	public class DATParser
+	public class DATParser extends EventDispatcher
 	{
 		protected var rawBytes:ByteArray;
 		protected var dataVersion:String;

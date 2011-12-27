@@ -22,7 +22,16 @@ package data
 		private var _doors:Array = [];
 		private var _teleporters:Array = [];
 		private var _texts:Array = [];
-		private var _actuators:Array = [];
+		private var _actuators : Array = [];
+		private var _creatures : Array = [];
+		private var _weapons : Array = [];
+		private var _clothes : Array = [];
+		private var _scrolls : Array = [];
+		private var _potions : Array = [];
+		private var _containers : Array = [];
+		private var _misc : Array = [];
+		private var _missiles : Array = [];
+		private var _clouds : Array = [];
 		
 		public function ObjectListing()
 		{
@@ -98,6 +107,96 @@ package data
 
 		public function set actuators(actuators : Array) : void {
 			_actuators = actuators;
+		}
+
+		public function get creatures() : Array
+		{
+			return _creatures;
+		}
+
+		public function set creatures(creatures : Array) : void
+		{
+			_creatures = creatures;
+		}
+
+		public function get weapons() : Array
+		{
+			return _weapons;
+		}
+
+		public function set weapons(weapons : Array) : void
+		{
+			_weapons = weapons;
+		}
+
+		public function get clothes() : Array
+		{
+			return _clothes;
+		}
+
+		public function set clothes(clothes : Array) : void
+		{
+			_clothes = clothes;
+		}
+
+		public function get scrolls() : Array
+		{
+			return _scrolls;
+		}
+
+		public function set scrolls(scrolls : Array) : void
+		{
+			_scrolls = scrolls;
+		}
+
+		public function get potions() : Array
+		{
+			return _potions;
+		}
+
+		public function set potions(potions : Array) : void
+		{
+			_potions = potions;
+		}
+
+		public function get containers() : Array
+		{
+			return _containers;
+		}
+
+		public function set containers(containers : Array) : void
+		{
+			_containers = containers;
+		}
+
+		public function get misc() : Array
+		{
+			return _misc;
+		}
+
+		public function set misc(misc : Array) : void
+		{
+			_misc = misc;
+		}
+
+		public function get missiles() : Array
+		{
+			return _missiles;
+		}
+
+		public function set missiles(missiles : Array) : void
+		{
+			_missiles = missiles;
+		}
+
+		public function get clouds() : Array
+		{
+			return _clouds;
+		}
+
+		public function set clouds(clouds : Array) : void
+		{
+			_clouds = clouds;
 		}
 
 

@@ -1,0 +1,11 @@
+ENDIAN=LITTLE,FORMAT=DMCSB2
+0000,SEQ2,NULL,Music Score (Sequence of Music Parts Numbers),,
+0001,SND8,SPR5,Music Part 1,,
+0002,SND8,SPR5,Music Part 2,,
+0003,SND8,SPR5,Music Part 3,,
+0004,SND8,SPR5,Music Part 4,,
+0005,SND8,SPR5,Music Part 5,,
+0006,SND8,SPR5,Music Part 6,,
+0007,SND8,SPR5,Music Part 7,,
+0008,SND8,SPR5,Music Part 8,,
+0009,SND8,SPR5,Music Part 9,,

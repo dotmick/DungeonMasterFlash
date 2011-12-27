@@ -31,6 +31,7 @@ package
 			trace("DATAS LOADED");
 			datas.dungeonDAT.addEventListener("parse_complete", dataParsedHandler);
 			datas.dungeonDAT.parse();
+			trace("graphics.dat - MD5 : " + datas.graphicsDAT.md5);
 		}
 
 		private function dataParsedHandler(evt:Event) : void

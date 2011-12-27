@@ -1,0 +1,19 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=1.0
+# Author: Pierre Monnot
+# Date: 01-APR-2006
+0001,RAW1,SIZE=368,Data zone,Hunk 0011 area 1 uncompressed,
+0002,P4B2,ID=PAL1,Main palette,,
+0003,P4B2,ID=PAL2,Main palette with light - 1,,
+0004,RAW1,SIZE=2166,Data zone,Hunk 0011 area 1 uncompressed,
+0005,P4B2,ID=PAL_TITLE,Palette for Title,,
+0006,P4B2,ID=PAL_CREDITS,Palette for Credits,,
+0007,P4B2,ID=PAL_ENTRANCE,Palette for Entrance,,
+0008,P4B2,ID=PAL_BLUE,Palette,,
+0009,P4B2,ID=PAL1,Main palette,,
+0010,P4B2,ID=PAL2,Main palette with light - 1,,
+0011,P4B2,ID=PAL3,Main palette with light - 2,,
+0012,P4B2,ID=PAL4,Main palette with light - 3,,
+0013,P4B2,ID=PAL5,Main palette with light - 4,,
+0014,P4B2,ID=PAL6,Main palette with light - 5,,
+0015,RAW1,NULL,Data zone,Hunk 0011 area 1 uncompressed,
+

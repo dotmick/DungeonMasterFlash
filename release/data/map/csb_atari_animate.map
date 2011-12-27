@@ -1,0 +1,88 @@
+MAPFORMATVERSION=2.0,MAPVERSION=1.0,ENDIAN=BIG,FORMAT=DMCSB1
+0000,P4B1,ID=0000,16 colors palette,,
+0001,P4B1,ID=0001,16 colors palette,,
+0002,P4B1,ID=0002,16 colors palette,,
+0003,P4B1,ID=0003,16 colors palette,,
+0004,P4B1,ID=0004,16 colors palette,,
+0005,P4B1,ID=0005,16 colors palette,,
+0006,P4B1,ID=0006,16 colors palette,,
+0007,P4B1,ID=0007,16 colors palette,,
+0008,P4B1,ID=0008,16 colors palette,,
+0009,P4B1,ID=0009,16 colors palette,,
+0010,P4B1,ID=0010,16 colors palette,,
+0011,P4B1,ID=0011,16 colors palette,,
+0012,P4B1,ID=0012,16 colors palette,,
+0013,P4B1,ID=0013,16 colors palette,,
+0014,P4B1,ID=0014,16 colors palette,,
+0015,P4B1,ID=0015,16 colors palette,,
+0016,P4B1,ID=0016,16 colors palette,,
+0017,P4B1,ID=0017,16 colors palette,,
+0018,P4B1,ID=0018,16 colors palette,,
+0019,P4B1,NULL,16 colors palette,Never used in animation,
+0020,P4B1,NULL,16 colors palette,Never used in animation,
+0021,P4B1,ID=0021,16 colors palette,,
+0022,P4B1,NULL,16 colors palette,Never used in animation,
+0023,P4B1,NULL,16 colors palette,Never used in animation,
+0024,P4B1,NULL,16 colors palette,Never used in animation,
+0025,P4B1,NULL,16 colors palette,Never used in animation,
+0026,P4B1,NULL,16 colors palette,Never used in animation,
+0027,P4B1,NULL,16 colors palette,Never used in animation,
+0028,P4B1,NULL,16 colors palette,Never used in animation,
+0029,P4B1,NULL,16 colors palette,Never used in animation,
+0030,IMG1,PAL=0000&PAL=0001&PAL=0008&PAL=0018,Introduction Image 0,,
+0031,IMG1,PAL=0002&PAL=0009,Introduction Image 1,,
+0032,IMG1,PAL=0003&PAL=0010&PAL=0011&PAL=0012&PAL=0013,Introduction Image 2,,
+0033,IMG1,PAL=0004&PAL=0014&PAL=0015&PAL=0016&PAL=0017,Introduction Image 3,,
+0034,IMG1,PAL=0005,Introduction Image 4,,
+0035,IMG1,PAL=0006,Introduction Image 5,,
+0036,IMG1,PAL=0005&PAL=0006&PAL=0007,Introduction Image 6,,
+0037,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0038,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0039,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0040,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0041,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0042,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0043,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0044,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0045,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0046,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0047,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0048,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0049,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0050,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0051,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0052,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0053,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0054,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0055,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0056,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0057,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0058,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0059,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0060,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0061,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0062,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0063,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0064,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0065,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0066,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0067,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0068,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0069,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0070,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0071,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0072,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0073,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0074,P4B1,NULL,16 colors palette,Never used in animation,Palettes 37-74 are identical
+0075,IMG1,PAL=0021,Credits,,
+0076,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 1,,
+0077,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 2,,
+0078,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 3,,
+0079,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 4,,
+0080,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 5,,
+0081,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 6,,
+0082,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 7,,
+0083,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 8,,
+0084,IMG1,PAL=0005&PAL=0006&PAL=0007,Lord Chaos Animation Step 9,,
+0085,SND1,SPR1,Explosion Sound,,
+0086,SND1,SPR1,Spell Sound,,

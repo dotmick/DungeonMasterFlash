@@ -1,0 +1,10 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 07-FEB-2006
+0001,RAW2,SIZE=56,Empty,,
+0002,RAW1,SIZE=2,Number of colors,,
+0003,P8B1,ID=PAL_INSERTDISK_01,Palette 01,Black,
+0004,RAW1,SIZE=2,Number of colors,,
+0005,P8B1,ID=PAL_INSERTDISK_02,Palette 02,,
+0006,IMG1,PAL=PAL_INSERTDISK_02,Image insert disk,en_fr_ge or en,
+

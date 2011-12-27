@@ -1,0 +1,6 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 15-MAR-2006
+0001,RAW1,SIZE=15492,Data zone,Hunk 0011 area 1,
+0002,P8B1,ID=PAL_CEDT,PAL1,like the one used ingame,
+0003,RAW1,NULL,Data zone,Hunk 0011 area 1,

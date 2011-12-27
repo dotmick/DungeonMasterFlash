@@ -1,0 +1,19 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 09-FEB-2006
+0001,RAW2,SIZE=8,Empty,,
+0002,P8B1,ID=PAL_DAMAGED_01,Palette 01,,To display 'Damaged Master Disk' text
+0003,P8B1,ID=PAL_MEGABYTE_02,Palette 02,,To display '1 Megabyte Required' text
+0004,IMG1,PAL=PAL_DAMAGED_01&PAL=PAL_MEGABYTE_02,Image for error,Damaged Master Disk - 1 Megabyte Required,
+0005,RAW2,SIZE=5,Empty,,
+0006,TXT2,NULL,Text 01,Copyright,
+0007,TXT2,NULL,Text 02,Copyright 2,
+0008,TXT2,NULL,Text 03,Copyright 3,
+0009,RAW2,SIZE=30,Empty,,
+0010,TXT2,SIZE=18,Text 04,trackdisk,
+0011,TXT2,SIZE=22,Text 05,trackdisk,
+0012,TXT2,NULL,Text 06,dos,
+0013,TXT2,SIZE=18,Text 07,graphics,
+0014,TXT2,NULL,Text 08,intuition,
+0015,RAW2,NULL,Empty,,
+

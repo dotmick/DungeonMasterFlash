@@ -1,0 +1,1648 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mapping>
+<maps>
+  
+  <!-- CMP files -->
+  <map md5="MD5VIRTUAL_CMP000000000000000000" path="all_cmp_default.map"
+    file="*.cmp" date="07-JAN-2006">
+  </map>
+  <map md5="58055A50748DC85C24D1EBE9E38F6996" path="all_cmp_default.map"
+    file="alex.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="E2A889BDB8E1923CB7F83989F92B53A2" path="all_cmp_default.map"
+    file="alex.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="F108B96A70D9BC417740D7F331ED6179" path="all_cmp_default.map"
+    file="azizi.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="C53346C8213D85622A3F9A5C41CB3350" path="all_cmp_default.map"
+    file="azizi.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>      
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+    </games>
+  </map>
+  <map md5="792D800D36A3E82F531A3DEFF4DA79F5" path="all_cmp_default.map"
+    file="azizi_2.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Atari_20_en_HD"/>
+    </games>
+  </map>
+  <map md5="9C4FF5418F4DC82B3E9EFE327C578039" path="all_cmp_default.map"
+    file="boris.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="1DC537CFB515CD4FEA36CE2D872F81D8" path="all_cmp_default.map"
+    file="boris.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="3B8A39752BA4C17137A5E91AEF55B3EF" path="all_cmp_default.map"
+    file="boris.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="77DF2C39F9F3A043A3CD5825EC739287" path="all_cmp_default.map"
+    file="chani.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="8145661D83DE75CEBCEBEEFBE8456179" path="all_cmp_default.map"
+    file="daroou.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="50F7F9D1ED6198706C4820FDDCABFC02" path="all_cmp_default.map"
+    file="elija.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="2225017E6C6813F201215E96A36DCAC0" path="all_cmp_default.map"
+    file="elija.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="4EC686CDA9AA870D0EE46BA35303E723" path="all_cmp_default.map"
+    file="elija.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="541B2BBC18D82D31CD8F1B88AC9C911A" path="all_cmp_default.map"
+    file="gando.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="D0C5B791992C25BF6886B559EA86A2E1" path="all_cmp_default.map"
+    file="gothmog.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="560E805E50E2B1D9E6659B55A99CD48C" path="all_cmp_default.map"
+    file="halk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="5C0A79A9D1751D360C9EFB60F0CEAC70" path="all_cmp_default.map"
+    file="halk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="06E622DC4142AFDC6B7BBB80BE911E49" path="all_cmp_default.map"
+    file="halk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="D3D153CAB879A16416747F71605ED24A" path="all_cmp_default.map"
+    file="hawk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="842514D253F87B0C5A246B11B52C2342" path="all_cmp_default.map"
+    file="hawk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="244778F74E80713D66861091BA27DBA9" path="all_cmp_default.map"
+    file="hawk.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="851CD41BAB0EECC187D6341B46EFAFC8" path="all_cmp_default.map"
+    file="hissssa.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="00FB323033EA0A67CD3A15AD3CD337C0" path="all_cmp_default.map"
+    file="hissssa.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="0B574229366D01104153846B50CCD0EC" path="all_cmp_default.map"
+    file="hissssa.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="31D8C638C96C466433A18928426A79F2" path="all_cmp_default.map"
+    file="iaido.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="D55224251EEACDF4720F0D373DDB2259" path="all_cmp_default.map"
+    file="iaido.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="B51A7BB064848D1350D3A2C5069CF295" path="all_cmp_default.map"
+    file="leif.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="57D7FDD223D602E351D9BBB5E1D7CFC9" path="all_cmp_default.map"
+    file="leif.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="635DF1B1C5545E7D92ED7A7E7639B6C6" path="all_cmp_default.map"
+    file="leif.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="1E80B2CA4D9E704110D49D7606B8EB69" path="all_cmp_default.map"
+    file="leyla.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="3AF922B71DF325CEDAE72BC4BF81BD2E" path="all_cmp_default.map"
+    file="leyla.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="4FD81B212D1CE413862A7E49F0009429" path="all_cmp_default.map"
+    file="linflas.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="DF017CC4FFDCF3912C67DF3696AEAD54" path="all_cmp_default.map"
+    file="mophus.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="D8C1C63227E6E0F056C603162CD00F5D" path="all_cmp_default.map"
+    file="mophus.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="5FA032446A4F59EE5CDD47F7DEE46917" path="all_cmp_default.map"
+    file="mophus.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="862970213550E1BC42E658C3305A2AFF" path="all_cmp_default.map"
+    file="nabi.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="1E412DF84C11886F93090196600E7FDC" path="all_cmp_default.map"
+    file="nabi.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="85BD13B5E68577E93E8A1A504287E36E" path="all_cmp_default.map"
+    file="nabi.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="C09A61923D573A3C223340491EBFBDAF" path="all_cmp_default.map"
+    file="sonja.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="689D6C0FEDFB301FFF2AC0A2274DB941" path="all_cmp_default.map"
+    file="sonja.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="D50AB27D7CBC70730995FFB09B79A330" path="all_cmp_default.map"
+    file="sonja.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="00A002E67EF93632D7BEC1F6C6EDB2D5" path="all_cmp_default.map"
+    file="sonja_2.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Atari_20_en_HD"/>
+    </games>
+  </map>
+  <map md5="FF94A1C12F803EDB1B43F522E9A66C63" path="all_cmp_default.map"
+    file="stamm.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="A76175D0F57EB7BAF6894123DE3560F8" path="all_cmp_default.map"
+    file="stamm.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="62C1C0D04482CE81C3CC21363739A1AD" path="all_cmp_default.map"
+    file="syra.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="760ABC9A13224D148CDD69295872AFE3" path="all_cmp_default.map"
+    file="syra.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="846C9EE7453E08AF2EE3C984CBC55928" path="all_cmp_default.map"
+    file="syra.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="8A26FFF470CCF7A3ADA2B120F43DB449" path="all_cmp_default.map"
+    file="tiggy.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="2CEE8B9D0891EEAC04D6C77D71284526" path="all_cmp_default.map"
+    file="wutse.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="8C431762976A4ADF1C0ACC1B88BDF5F3" path="all_cmp_default.map"
+    file="wutse.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="1F1C54A7592CC67C191BA9ABBA4B9A6A" path="all_cmp_default.map"
+    file="wutse.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="65FCB95E1DBEA19938ED1D96A4B04D3B" path="all_cmp_default.map"
+    file="wuuf.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="9F9EDCCFDDC60919DEEB571F3614CB09" path="all_cmp_default.map"
+    file="wuuf.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="7E596FDD7287148FFBCAB5DF1748D628" path="all_cmp_default.map"
+    file="wuuf.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="9122893FEEFFC00EBE7FCE9C7E41F51C" path="all_cmp_default.map"
+    file="wuuf.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="EE4FB5CDDFF52AFC05F9516717EC9038" path="all_cmp_default.map"
+    file="zed.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="B38778745B79B2D9B4F62B354F047362" path="all_cmp_default.map"
+    file="zed.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="2CF2E3EFA473B26AFE36264D68F87786" path="all_cmp_default.map"
+    file="zed.cmp" date="07-JAN-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_FMTowns_en"/>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  
+  <!-- FTL files -->
+  <map md5="MD5VIRTUAL_FTL000000000000000000" path="all_ftl_default.map"
+    file="*.ftl" date="26-JAN-2006">
+  </map>
+  <map md5="49248DCA6A02B2988C0D21D29520E2EC" path="csb_amiga_ANIM_FTL.map"
+    file="anim.ftl" date="07-FEB-2006">
+    <games>      
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="E59FF9F9655E37D7B8401C03E2A5CA93" path="csb_amiga_utility_en_r1_ANIM_FTL.map"
+    file="anim.ftl" date="27-MAR-2006">
+    <games>      
+      <game id="CSB_Amiga_utility_en_r1"/>
+    </games>
+  </map>
+  <map md5="60FFBBE31830F2FE262CB8DEE862B7FC" path="csb_amiga_ANIM_FTL.map"
+    file="anim.ftl" date="10-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_en_betrayal"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+    </games>
+  </map>
+  <map md5="0685AF41F4EC2D941EB6450D0F331B2C" path="csb_amiga_ANIM_FTL.map"
+    file="anim.ftl" date="10-FEB-2006">
+    <games>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  
+  <map md5="8D68DF400F71672DF4D0339C806C6A25" path="dmcsb_amiga_3x_APPA_FTL.map"
+    file="appa.ftl" date="07-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  
+  <map md5="50F9E544DC59E400F53CB6F6B63D3BC5" path="dmcsb_amiga_3x_APPA_FTL.map"
+    file="appa.ftl" date="07-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_en_betrayal"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+    </games>
+  </map>
+  <map md5="D99EABE849BD2CD2851A8641C424EEAA" path="dmcsb_amiga_3x_APPA_FTL.map"
+    file="appa.ftl" date="07-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>  
+  <map md5="8F5C7A5D15FA456F77F0417403EAD5BA" path="csb_x68k_appa.map"
+    file="appa.ftl" date="28-MAR-2006">
+    <games>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>  
+  <map md5="1533410BEAEEA4FA614AE0F0142E0861" path="dm_amiga_36_appb.map"
+    file="appb.ftl" date="01-APR-2006">
+    <games>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  <map md5="5BD237721892E7539EC248E1E2E3CD6C" path="csb_amiga_utility_APPB_FTL.map"
+    file="appb.ftl" date="09-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+    </games>
+  </map>
+  <map md5="B55A95BDF650CB7F179100571CF254AD" path="csb_amiga_utility_ge_APPB_FTL.map"
+    file="appb.ftl" date="27-MAR-2006">
+    <games><game id="CSB_Amiga_utility_ge"/></games>
+  </map>
+  <map md5="35987D3F0278C6036FCC24786D4A75D7" path="csb_amiga_APPB_FTL.map"
+    file="appb.ftl" date="09-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+    </games>
+  </map>
+  <map md5="6194CD3BD9F84BD8EE1D2C9055DD8F4B" path="csb_amiga_utility_APPB_FTL.map"
+    file="appb.ftl" date="27-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>  
+  <map md5="2A114EF2D05D353CA397FF17A28491DA" path="csb_x68k_appb.map"
+    file="appb.ftl" date="28-MAR-2006">
+    <games>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="AF50FF33C61C22E20784D74266D81D1E" path="csb_amiga_betrayal_appb.map"
+    file="appb.ftl" date="11-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_en_betrayal"/>
+    </games>
+  </map>
+  
+  <map md5="C752F6F18559EEE2BB64CEC4602D722A" path="csb_amiga_CEDT_FTL.map"
+    file="cedt.ftl" date="15-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+    </games>
+  </map>  
+  <map md5="B79178A89CA2A6DBFB9B93AFDF02EAB0" path="csb_amiga_CEDT_FTL.map"
+    file="cedt.ftl" date="15-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  
+  <map md5="C0F0817FDA35606A4FA009B6311C1D7C" path="dm_amiga_36_cnfg.map"
+    file="cnfg.ftl" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>      
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>      
+    </games>
+  </map>
+  <map md5="00DAE1FCFE37B5BCB3EF1C59C9C0AFCA" path="csb_amiga_CNFG_FTL.map"
+    file="cnfg.ftl" date="09-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_en_betrayal"/>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+    </games>
+  </map>
+  
+  <map md5="DBB79832C9CC3DB82886BA8D3F72748A" path="csb_amiga_KAOS_FTL.map"
+    file="kaos.ftl" date="11-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+    </games>
+  </map>
+  <map md5="DC2F97E177843046A969EBC2D7B74778" path="csb_amiga_KAOS_FTL.map"
+    file="kaos.ftl" date="11-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+    </games>
+  </map>
+  <map md5="95F77733635DE15FD6D779958FCB9374" path="dm_amiga_36_KAOS_FTL.map"
+    file="kaos.ftl" date="01-APR-2006">
+    <games>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  
+  <map md5="8EE29BC3B674056DE1793F079A930268" path="dm2_amiga_LANG_FTL.map"
+    file="lang.ftl" date="01-APR-2006">
+    <games>
+      <game id="DM2_Amiga_10_en_fr_ge_hd_caps"/>
+    </games>
+  </map>
+  
+  <map md5="FF3872BAAED8EE4E83EE3C0684B2EEEC" path="dmcsb_amiga_SWSH_FTL.map"
+    file="swsh.ftl" date="10-FEB-2006">
+    <games>
+      <game id="CSB_Amiga_en_betrayal"/>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  <map md5="AABDE367857177D74B709AB54B003F97" path="csb_x68k_swsh.map"
+    file="swsh.ftl" date="28-MAR-2006">
+    <games>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  
+  <map md5="89CCD44E3AB1750DDE22B0FCF14028DD" path="dm2_amiga_VDEO_FTL.map"
+    file="vdeo.ftl" date="01-APR-2006">
+    <games>
+      <game id="DM2_Amiga_10_en_fr_ge_hd_caps"/>
+    </games>
+  </map>
+  
+  
+  
+  <map md5="6A2F135B53C2220F0251FA103E2A6E7E" path="dm_amiga_20_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_Amiga_20_en"/>
+      <game id="DM_Amiga_20_en_HD"/>
+      <game id="DM_Amiga_20_en_kontra"/>
+    </games>
+  </map>
+  <map md5="DD373954B3FB127DB7387946131EA322" path="dm_amiga_20_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_Amiga_20_fr"/></games>
+  </map>
+  <map md5="0679E39DA9DCC2E855CB33C6C64DDCB5" path="dm_amiga_20_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_Amiga_22_ge"/></games>
+  </map>
+  <map md5="0259C44289370698467C345B5A98ACD3" path="dm_amiga_20_en_swoosh.map"
+    file="swoosh" date="01-NOV-2005">
+    <games>
+      <game id="DM_Amiga_20_en"/>
+      <game id="DM_Amiga_20_en_HD"/>
+    </games>
+  </map>
+  <map md5="1038138978975415571A878BB08F54BE" path="dm_amiga_20fr_22ge_swoosh.map"
+    file="swoosh" date="01-NOV-2005">
+    <games>
+      <game id="DM_Amiga_20_fr"/>
+      <game id="DM_Amiga_22_ge"/>
+    </games>
+  </map>
+  <map md5="7F9458E4A3972D06E649A6FA85A7F34B" path="dm_amiga_36_gd.map"
+    file="graphics.dat" date="01-APR-2006">
+    <games>
+      <game id="DM_Amiga_36_en_fr_ge"/>
+      <game id="DM_Amiga_36_en_fr_ge_caps"/>
+    </games>
+  </map>
+  
+  <map md5="1045A36952E64EB2BC7B4C7B2965B112" path="dm_apple2gs_gd.map"
+    file="graphics.game" date="01-NOV-2005">
+    <games>
+      <game id="DM_Apple_en"/>
+      <game id="DM_Apple_en_alt"/>
+      <game id="DM_Apple_en_alt2"/>
+    </games>
+  </map>
+  <map md5="B3CFD84E44CDF07CE2EEBA47E87F772B" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_Atari_en_ad097"/>
+      <game id="DM_Atari_10_pasti"/>
+    </games>
+  </map>
+  <map md5="5095A13692702235D2E74F6B2B1367A9" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_Atari_11_en_ford"/>
+      <game id="DM_Atari_11_en_HD"/>
+    </games>
+  </map>
+  <map md5="9CE2EAF7A9E78620E3F17594437CAFFA" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_Atari_12_en"/>
+      <game id="DM_Atari_12_en_pasti"/>
+    </games>
+  </map>
+  <map md5="2BDC5F431F84C0ECE738F54DBD787C3B" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="19-DEC-2005">
+    <games>
+      <game id="DM_Atari_12_ge_pasti"/>
+    </games>
+  </map>
+  <map md5="0D7AF44DD14F383464288ABDCEC76AFC" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_Atari_13_fr"/>
+      <game id="DM_Atari_13_fr_pasti"/>
+    </games>
+  </map>
+  <map md5="0B5E042F2C7F2752BAC78292CC6BB07E" path="dm_atari_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_Atari_en_42crew"/></games>
+  </map>
+  <map md5="C10C512F63461EBE79B5AC365115B61B" path="dm_fmtowns_gd.map"
+    file="data\graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_FMTowns_20_en_jp"/>
+    </games>
+  </map>
+  <map md5="EDF47D7DA5DE8184604D6D80477EF01F" path="dm_fmtowns_gd.map"
+    file="jdata\graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_FMTowns_20_en_jp"/></games>
+  </map>
+  <map md5="EAEC2131541573658DA99C13865C2E67" path="dm_pc98_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_PC98_20_jp"/></games>
+  </map>
+  <map md5="FA6B1AA29E191418713BF2CDA93D962E" path="dm_pc43_en_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_PC_34"/></games>
+  </map>
+  <map md5="C20E5B8F756E360A631595CC9260F62D" path="dm_pc43_en_song.map"
+    file="song.dat" date="01-NOV-2005">
+    <games>
+      <game id="DM_PC_sp"/>
+      <game id="DM_PC_34"/>
+      <game id="DM_PC_multi"/>
+    </games>
+  </map>
+  <map md5="F934D97E43E1BA6E5159839ACBCD0611" path="dm_pc43_multi_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_PC_34_multi"/></games>
+  </map>
+  <map md5="4E5D0111A377623CF935F473929C0BE3" path="dm_pc43_multi_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_PC_sp"/></games>
+  </map>
+  <map md5="FE08A97C64766614B71164FA06EDA545" path="dm_x68k_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM_X68000_30_jp"/></games>
+  </map>
+  
+  <map md5="61FBFD56887C94ADC26888A9491C6611" path="csb_amiga_3x_gd.map"
+    file="graphics.dat" date="11-MAR-2006">
+    <games>
+      <game id="CSB_Amiga_31_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge"/>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+    </games>
+  </map>
+  <map md5="B367D58374A799DE88BC1A24C6320771" path="csb_amiga_cedtls.map"
+    file="cedtls.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="BBF3ADA2DA9722577FEEA4FA213B32F1" path="csb_amiga_hcsb.map"
+    file="hcsb.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+    </games>
+  </map>
+  <map md5="DC22B3DAE4C1C799E7E21F66F291AA9C" path="csb_amiga_fr_naked.map"
+    file="naked.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+    </games>
+  </map>
+  <map md5="BD85386535697DF62BDBAE73740FE435" path="csb_amiga_dragon.map"
+    file="dragon.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="370A3C46AECEE04BDC6EAE73771208C0" path="csb_amiga_explos1.map"
+    file="explos1.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="59CE0CA034656595B0E0A7A9B1A71316" path="csb_amiga_magexplo.map"
+    file="magexplo.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="CCA41290E6121FBB451EE55283CE4ABB" path="csb_amiga_swipe.map"
+    file="swipe.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="70528F7143BD0A3CA7BFD3988722A8A8" path="csb_amiga_tele2.map"
+    file="tele2.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_33_en_fr_ge_HD"/>
+      <game id="CSB_Amiga_utility_fr"/>
+      <game id="CSB_Amiga_utility_ge"/>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  
+  <map md5="21197B1D4994FD835C403D5A33DCAC2B" path="csb_amiga_gd.map"
+    file="graphics.dat" date="11-MAR-2006">
+    <games><game id="CSB_Amiga_en_betrayal"/></games>
+  </map>
+  
+  <map md5="A3CFF52EF8E4D85853282181219CDE63" path="csb_amiga_cedtls.map"
+    file="cedtls.dat" date="01-NOV-2005">
+    <games><game id="CSB_Amiga_utility_ge"/></games>
+  </map>
+  <map md5="9E0DA6C5A569859C6191201DCC6E6AAE" path="csb_amiga_hcsb.map"
+    file="hcsb.dat" date="01-NOV-2005">
+    <games><game id="CSB_Amiga_utility_ge"/></games>
+  </map>
+  
+  <map md5="708E113C869AB922633E885AA72A3C77" path="csb_amiga_r1_hcsb.map"
+    file="hcsb.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+    </games>
+  </map>
+  <map md5="4D14D2F12752653BCB1D4464840A7230" path="csb_amiga_naked.map"
+    file="naked.amg" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_utility_en_r1"/>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="8AEF8165975A36A426AA2EA39823C149" path="csb_amiga_cedtls.map"
+    file="cedtls.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="7496B3B8B9FF6E2368EAC9A16BE8230B" path="csb_amiga_hcsb.map"
+    file="hcsb.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Amiga_utility_en_r2"/>
+      <game id="CSB_Amiga_utility_en_r3"/>
+    </games>
+  </map>
+  <map md5="9F8FEB269C959C9FE722AC08F99D9C35" path="csb_atari_animate.map"
+    file="animate.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+    </games>
+  </map>
+  <map md5="EBF6A57AF3F27782E358C0490BFD2F2E" path="csb_atari_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_Atari_20_en_ad192"/>
+      <game id="CSB_Atari_20_en_replicants"/>
+      <game id="CSB_Atari_20_en_HD"/>
+      <game id="CSB_Atari_20_en_pasti"/>
+      <game id="CSB_Atari_21_en_pasti"/>
+      <game id="CSB_Atari_21"/>
+    </games>
+  </map>
+  <map md5="61F51D7FFBE0A8CCD6A49C2FEC3295FC" path="csb_pc98_enter.map"
+    file="enter.sng" date="01-NOV-2005">
+    <games><game id="CSB_PC98_31_jp"/></games>
+  </map>
+  <map md5="761D6FC588B31AEAAA9CAF3725E111B9" path="csb_pc98_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_FMTowns_jp"/>
+      <game id="CSB_PC98_31_jp"/>
+    </games>
+  </map>
+  
+  <map md5="EE1EC8A63E0D41D45D2E073BFCDF5DF7" path="csb_pc98_enter.map"
+    file="enter.sng" date="01-NOV-2005">
+    <games>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  <map md5="8FE59D4F2AF5B57A4CB14447C011D3F1" path="csb_x68k_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games>
+      <game id="CSB_X68000_jp"/>
+      <game id="CSB_X68000_31_jp"/>
+    </games>
+  </map>
+  
+  <map md5="405B757038EEA3C263E60F240854D6DE" path="csb_fmtowns_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="CSB_FMTowns_en"/></games>
+  </map>
+  <map md5="1C940EA95703EAEA0ECDF84D17E954B9" path="dm2_amiga_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM2_Amiga_10_en_fr_ge_hd_caps"/></games>
+  </map>
+  <map md5="DBCED13A38D3036F42B9797175B7EC88" path="dm2_segacd_gd.map"
+    file="graphics.dat" date="01-NOV-2005">
+    <games><game id="DM2_SegaCD_10_en"/></games>
+  </map>
+  
+  <map md5="649BAE1C9FEB10C93A375BEA85A0703B" path="dm_snes_en.map"
+    file="*.smc" date="04-JUN-2006">
+    <games><game id="DM_SNES_10_en"/></games>
+  </map>  
+  <map md5="BF871F4359001052912ABD9527940BBB" path="dm_snes_en.map"
+    file="*.smc" date="04-JUN-2006">
+    <games><game id="DM_SNES_10_en_pal"/></games>
+  </map>  
+  <map md5="AC629F36E7161532427D29329638339D" path="dm_snes_jp.map"
+    file="*.smc" date="04-JUN-2006">
+    <games><game id="DM_SNES_10_jp"/></games>
+  </map>
+  
+  <map md5="70137DA718644F744D33E16FE17F8D63" path="dm_snes_jp_11.map"
+    file="*.smc" date="19-JAN-2007">
+    <games><game id="DM_SNES_11_jp"/></games>
+  </map>
+  
+  <map md5="FB85F8209FE4EA11E6578B11E8194546" path="GBA_1826_RType3.map"
+    file="*.smc" date="18-DEC-2005">
+    <games><game id="GBA_RT3_E_1826"/></games>
+  </map>
+  
+  <!-- Dungeon files -->
+  <map md5="MD5VIRTUAL_DUNGEON000000000000000000" path="dungeon_default.map"
+    file="dungeon.dat" date="06-AUG-2006"
+    strings_default="dm_en.xml"
+    strings_14="dm_en.xml"
+    strings_2="csb_en.xml"
+    strings_11="csb_en.xml"
+    >
+  </map>
+  
+</maps>
+<games>
+  <game id="CSB_Amiga_en_betrayal"
+        name="Chaos Strikes Back"
+        machine="Amiga"
+        version=""
+        languages="en"
+        subversion="Betrayal"
+        comment="cracked"/>
+  <game id="CSB_Amiga_31_en_fr_ge"
+        name="Chaos Strikes Back"
+        machine="Amiga"
+        version="3.1"
+        languages="en fr ge"
+        subversion="Endless Piracy"
+        comment="cracked"/>
+  <game id="CSB_Amiga_33_en_fr_ge"
+        name="Chaos Strikes Back"
+        machine="Amiga"
+        version="3.3"
+        languages="en fr ge"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Amiga_33_en_fr_ge_HD"
+        name="Chaos Strikes Back"
+        machine="Amiga"
+        version="3.3"
+        languages="en fr ge"
+        subversion="HD Meynaf"
+        comment="cracked"/>
+  <game id="CSB_Amiga_utility_fr"
+        name="Chaos Strikes Back Utility"
+        machine="Amiga"
+        version=""
+        languages="fr"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Amiga_utility_ge"
+        name="Chaos Strikes Back Utility"
+        machine="Amiga"
+        version=""
+        languages="ge"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Amiga_utility_en_r1"
+        name="Chaos Strikes Back Utility"
+        machine="Amiga"
+        version="R1"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Amiga_utility_en_r2"
+        name="Chaos Strikes Back Utility"
+        machine="Amiga"
+        version="R2"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Amiga_utility_en_r3"
+        name="Chaos Strikes Back Utility"
+        machine="Amiga"
+        version="R3"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="CSB_Atari_20_en_replicants"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.0"
+        languages="en"
+        subversion="Replicants"
+        comment="cracked"/>
+  <game id="CSB_Atari_20_en_HD"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.0"
+        languages="en"
+        subversion="HD"
+        comment=""/>
+  <game id="CSB_Atari_20_en_pasti"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.0"
+        languages="en"
+        subversion="Pasti"
+        comment="original"/>
+  <game id="CSB_Atari_20_en_ad192"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.0"
+        languages="en"
+        subversion="AD192"
+        comment="cracked"/>
+  <game id="CSB_Atari_21"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.1"
+        languages=""
+        subversion=""
+        comment=""/>
+  <game id="CSB_Atari_21_en_pasti"
+        name="Chaos Strikes Back"
+        machine="Atari"
+        version="2.1"
+        languages="en"
+        subversion="Pasti"
+        comment="original"/>
+  <game id="CSB_X68000_jp"
+        name="Chaos Strikes Back"
+        machine="X68000"
+        version=""
+        languages="jp"
+        subversion=""
+        comment=""/>
+  <game id="CSB_X68000_31_jp"
+        name="Chaos Strikes Back"
+        machine="X68000"
+        version="3.1"
+        languages="jp"
+        subversion=""
+        comment=""/>
+  <game id="CSB_FMTowns_en"
+        name="Chaos Strikes Back"
+        machine="FM-Towns"
+        version=""
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="CSB_FMTowns_jp"
+        name="Chaos Strikes Back"
+        machine="FM-Towns"
+        version=""
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="CSB_PC98_31_jp"
+        name="Chaos Strikes Back"
+        machine="PC-98"
+        version="3.1"
+        languages="jp"
+        subversion=""
+        comment=""/>
+                          
+  <game id="DM_Amiga_20_en"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="2.0"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="DM_Amiga_20_en_HD"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="2.0"
+        languages="en"
+        subversion="HD"
+        comment="cracked"/>
+  <game id="DM_Amiga_20_en_kontra"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="2.0"
+        languages="en"
+        subversion="Kontrasoft"
+        comment="cracked"/>
+  <game id="DM_Amiga_20_fr"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="2.0"
+        languages="fr"
+        subversion=""
+        comment="original"/>
+  <game id="DM_Amiga_22_ge"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="2.2"
+        languages="ge"
+        subversion=""
+        comment=""/>
+  <game id="DM_Amiga_36_en_fr_ge"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="3.6"
+        languages="en fr ge"
+        subversion=""
+        comment=""/>
+  <game id="DM_Amiga_36_en_fr_ge_caps"
+        name="Dungeon Master"
+        machine="Amiga"
+        version="3.6"
+        languages="en fr ge"
+        subversion="CAPS"
+        comment="original"/>  
+  <game id="DM_Atari_en_42crew"
+        name="Dungeon Master"
+        machine="Atari"
+        version=""
+        languages="en"
+        subversion="42crew"
+        comment="cracked broken"/>
+  <game id="DM_Atari_en_ad097"
+        name="Dungeon Master"
+        machine="Atari"
+        version=""
+        languages="en"
+        subversion="AD097"
+        comment="cracked broken"/>
+  <game id="DM_Atari_10_pasti"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.0"
+        languages="en"
+        subversion="Pasti"
+        comment="original"/>
+  <game id="DM_Atari_11_en_ford"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.1"
+        languages="en"
+        subversion="Ford perfect"
+        comment="cracked"/>
+  <game id="DM_Atari_11_en_HD"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.1"
+        languages="en"
+        subversion="HD"
+        comment=""/>
+  <game id="DM_Atari_12_en"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.2"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="DM_Atari_12_en_pasti"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.2"
+        languages="en"
+        subversion="Pasti"
+        comment="original"/>
+  <game id="DM_Atari_12_ge_pasti"
+        name="Dungeon Master"
+        machine="Atari"
+        version="1.2"
+        languages="ge"
+        subversion="Pasti"
+        comment="original"/>
+  <game id="DM_Atari_13_fr"
+        name="Dungeon Master"
+        machine="Atari"
+        version=""
+        languages="fr"
+        subversion=""
+        comment=""/>
+  <game id="DM_Atari_13_fr_pasti"
+        name="Dungeon Master"
+        machine="Atari"
+        version=""
+        languages="fr"
+        subversion="Pasti"
+        comment="Original"/>
+  <game id="DM_Apple_en"
+        name="Dungeon Master"
+        machine="Apple II gs"
+        version=""
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="DM_Apple_en_alt"
+        name="Dungeon Master"
+        machine="Apple II gs"
+        version=""
+        languages="en"
+        subversion="alt"
+        comment=""/>
+  <game id="DM_Apple_en_alt2"
+        name="Dungeon Master"
+        machine="Apple II gs"
+        version=""
+        languages="en"
+        subversion="alt2"
+        comment=""/>
+  <game id="DM_PC_sp"
+        name="Dungeon Master"
+        machine="PC"
+        version=""
+        languages="sp"
+        subversion=""
+        comment=""/>
+  <game id="DM_PC_34"
+        name="Dungeon Master"
+        machine="PC"
+        version="3.4"
+        languages=""
+        subversion=""
+        comment=""/>
+  <game id="DM_PC_34_multi"
+        name="Dungeon Master"
+        machine="PC"
+        version="3.4"
+        languages="multi"
+        subversion=""
+        comment=""/>
+  <game id="DM_SNES_10_en"
+        name="Dungeon Master"
+        machine="SNES"
+        version="1.0"
+        languages="en"
+        subversion="NTSC"
+        comment=""/>
+  <game id="DM_SNES_10_en_pal"
+        name="Dungeon Master"
+        machine="SNES"
+        version="1.0"
+        languages="en"
+        subversion="PAL"
+        comment=""/>
+  <game id="DM_SNES_10_jp"
+        name="Dungeon Master"
+        machine="SNES"
+        version="1.0"
+        languages="jp"
+        subversion=""
+        comment=""/>
+  <game id="DM_SNES_11_jp"
+        name="Dungeon Master"
+        machine="SNES"
+        version="1.1"
+        languages="jp"
+        subversion=""
+        comment=""/>
+  <game id="DM_FMTowns_20_en_jp"
+        name="Dungeon Master"
+        machine="FM-Towns"
+        version="2.0"
+        languages="en jp"
+        subversion=""
+        comment=""/>
+  <game id="DM_PC98_20_jp"
+        name="Dungeon Master"
+        machine="PC-98"
+        version="2.0"
+        languages="jp"
+        subversion=""
+        comment=""/>
+  <game id="DM_X68000_30_jp"
+        name="Dungeon Master"
+        machine="X68000"
+        version="3.0"
+        languages="jp"
+        subversion=""
+        comment=""/>
+                                      
+  <game id="DM2_Amiga_10_en_fr_ge_hd_caps"
+        name="Dungeon Master 2"
+        machine="Amiga"
+        version="1.0"
+        languages="en fr ge"
+        subversion="HD CAPS"
+        comment=""/>
+  <game id="DM2_SegaCD_10_en"
+        name="Dungeon Master 2"
+        machine="SegaCD"
+        version="1.0"
+        languages="en"
+        subversion=""
+        comment=""/>
+  <game id="GBA_RT3_E_1826"
+        name="R-Type III"
+        machine="GBA"
+        version="1.0"
+        languages="en"
+        subversion="European - Rising Sun"
+        comment="1826"/>
+</games>
+</mapping>

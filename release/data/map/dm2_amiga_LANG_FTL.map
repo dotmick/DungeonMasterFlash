@@ -1,0 +1,44 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 01-APR-2006
+0001,RAW2,SIZE=12,Empty,,
+0002,P8B1,ID=PAL_LANG,Color palette,,
+0003,IMG1,PAL=PAL_LANG,Language choice map,English - French - German,
+0004,RAW2,SIZE=1,Empty,0x00,
+0005,IMG1,PAL=PAL_LANG,Icon 01,French flag icon highlighted,
+0006,RAW1,SIZE=2,Empty,0x00,
+0007,IMG1,PAL=PAL_LANG,Icon 02,English flag icon highlighted,
+0008,RAW2,SIZE=1,Empty,0x00,
+0009,IMG1,PAL=PAL_LANG,Icon 03,German flag icon highlighted,
+0010,RAW2,SIZE=3,Empty,0x00,
+0011,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 01 offset from end),end = end of uncompressed hunk 11 area 1
+0012,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 02 offset from end),end = end of uncompressed hunk 11 area 1
+0013,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 03 offset from end),end = end of uncompressed hunk 11 area 1
+0014,INT2,NULL,Location,Icon 01 left-up X,
+0015,INT2,NULL,Location,Icon 01 left-up Y,
+0016,INT2,NULL,Size,Icon 01 width,
+0017,INT2,NULL,Size,Icon 01 lenght,
+0018,INT2,NULL,Location,Icon 02 left-up X,
+0019,INT2,NULL,Location,Icon 02 left-up Y,
+0020,INT2,NULL,Size,Icon 02 width,
+0021,INT2,NULL,Size,Icon 02 lenght,
+0022,INT2,NULL,Location,Icon 03 left-up X,
+0023,INT2,NULL,Location,Icon 03 left-up Y,
+0024,INT2,NULL,Size,Icon 03 width,
+0025,INT2,NULL,Size,Icon 03 lenght,
+0026,TXT2,SIZE=4,Parameter for choice 01,FNCH,
+0027,TXT2,SIZE=4,Parameter for choice 02,ENGL,
+0028,TXT2,SIZE=4,Parameter for choice 03,GRMN,
+0029,RAW2,SIZE=24,Empty,0x00,
+0030,RAW1,SIZE=4,Offset,0xFFFFFFFF - (PRF Text 01 offset from end),end = end of uncompressed hunk 11 area 1
+0031,RAW1,SIZE=4,Offset,0xFFFFFFFF - (PRF Text 02 offset from end),end = end of uncompressed hunk 11 area 1
+0032,RAW1,SIZE=4,Offset,0xFFFFFFFF - (PRF Text 03 offset from end),end = end of uncompressed hunk 11 area 1
+0033,RAW2,SIZE=26,Empty,0x00,
+0034,TXT2,NULL,Misc text 01,keyboard,
+0035,TXT2,NULL,PRF text 01,For french,
+0036,TXT2,NULL,PRF text 02,For english,
+0037,TXT2,NULL,PRF text 03,For german,
+0038,RAW2,SIZE=30,Empty,0x00,
+0039,TXT2,NULL,Misc text 02,dos,
+0040,TXT2,SIZE=18,Misc text 03,graphics,
+0041,TXT2,NULL,Misc text 04,intuition,

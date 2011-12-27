@@ -26,4 +26,11 @@
 		<nature>com.adobe.flexbuilder.project.actionscriptnature</nature>
 		<nature>com.powerflasher.fdt.core.FlashNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>as3corelib</name>
+			<type>2</type>
+			<locationURI>as3corelib</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

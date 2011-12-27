@@ -1,0 +1,34 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 09-FEB-2006
+0001,P8B1,ID=PAL_LANGUAGE,Palette 01,,
+0002,IMG1,PAL=PAL_LANGUAGE,Language choice,fr en ge,
+0003,IMG1,PAL=PAL_LANGUAGE,Flag 01,Flag fr highlighted,
+0004,RAW1,SIZE=1,Unknown,0x11,
+0005,IMG1,PAL=PAL_LANGUAGE,Flag 02,Flag en highlighted,
+0006,RAW2,SIZE=1,Empty,0x00,
+0007,IMG1,PAL=PAL_LANGUAGE,Flag 03,Flag ge highlighted,
+0008,RAW1,SIZE=1,Unknown,0x02,
+0009,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Flag fr offset from end),end = end of uncompressed hunk 11 area 1
+0010,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Flag en offset from end),end = end of uncompressed hunk 11 area 1
+0011,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Flag ge offset from end),end = end of uncompressed hunk 11 area 1
+0012,INT2,NULL,Location,Flag fr left-up X,
+0013,INT2,NULL,Location,Flag fr left-up Y,
+0014,INT2,NULL,Size,Flag fr width,
+0015,INT2,NULL,Size,Flag fr lenght,
+0016,INT2,NULL,Location,Flag en left-up X,
+0017,INT2,NULL,Location,Flag en left-up Y,
+0018,INT2,NULL,Size,Flag en width,
+0019,INT2,NULL,Size,Flag en lenght,
+0020,INT2,NULL,Location,Flag en left-up X,
+0021,INT2,NULL,Location,Flag en left-up Y,
+0022,INT2,NULL,Size,Flag en width,
+0023,INT2,NULL,Size,Flag en lenght,
+0024,TXT2,SIZE=4,Parameter for language fr,FNCH,
+0025,TXT2,SIZE=4,Parameter for language en,ENGL,
+0026,TXT2,SIZE=4,Parameter for language ge,GRMN,
+0027,RAW2,NULL,Empty,,
+
+
+
+

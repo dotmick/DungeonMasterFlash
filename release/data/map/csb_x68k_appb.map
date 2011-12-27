@@ -1,0 +1,34 @@
+ENDIAN=BIG,FORMAT=FTL,MAPFORMATVERSION=2.3,MAPVERSION=2.0
+# Author: Pierre Monnot
+# Date: 28-MAR-2006
+0001,P8B1,ID=PAL_UTILITY,Palette 01,,
+0002,IMG1,PAL=PAL_UTILITY,Utility choice,Animation - Champions editor - Oracle hints,
+0003,RAW2,SIZE=1,Empty,0x00,
+0004,IMG1,PAL=PAL_UTILITY,Icon 01,Animation icon highlighted,
+0005,RAW2,SIZE=1,Empty,0x00,
+0006,IMG1,PAL=PAL_UTILITY,Icon 02,Editor icon highlighted,
+0007,IMG1,PAL=PAL_UTILITY,Icon 03,Oracle icon highlighted,
+0008,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 01 offset from end),end = end of uncompressed hunk 11 area 1
+0009,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 02 offset from end),end = end of uncompressed hunk 11 area 1
+0010,RAW1,SIZE=4,Offset,0xFFFFFFFF - (Icon 03 offset from end),end = end of uncompressed hunk 11 area 1
+0011,INT2,NULL,Location,Icon 01 left-up X,
+0012,INT2,NULL,Location,Icon 01 left-up Y,
+0013,INT2,NULL,Size,Icon 01 width,
+0014,INT2,NULL,Size,Icon 01 lenght,
+0015,INT2,NULL,Location,Icon 02 left-up X,
+0016,INT2,NULL,Location,Icon 02 left-up Y,
+0017,INT2,NULL,Size,Icon 02 width,
+0018,INT2,NULL,Size,Icon 02 lenght,
+0019,INT2,NULL,Location,Icon 03 left-up X,
+0020,INT2,NULL,Location,Icon 03 left-up Y,
+0021,INT2,NULL,Size,Icon 03 width,
+0022,INT2,NULL,Size,Icon 03 lenght,
+0023,TXT2,SIZE=4,Parameter for choice 01,ANIM,
+0024,TXT2,SIZE=4,Parameter for choice 02,CEDT,
+0025,TXT2,SIZE=4,Parameter for choice 03,KAOS,
+0026,RAW2,NULL,Empty,,
+
+
+
+
+

@@ -1,5 +1,6 @@
 package
 {
+	import data.Mapping;
 	import flash.ui.Keyboard;
 	import flash.events.KeyboardEvent;
 	import flash.display.BitmapData;
@@ -32,6 +33,7 @@ package
 			datas.dungeonDAT.addEventListener("parse_complete", dataParsedHandler);
 			datas.dungeonDAT.parse();
 			trace("graphics.dat - MD5 : " + datas.graphicsDAT.md5);
+			trace( datas.mapping.getMappingFileFromMD5( datas.graphicsDAT.md5 ) );
 		}
 
 		private function dataParsedHandler(evt:Event) : void

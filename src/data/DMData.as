@@ -10,8 +10,10 @@ package data
 	{
 		private var dungeonDATFile:File;
 		private var graphicsDATFile:File;
+		private var mappingFile:File;
 		private var _dungeonDAT:DungeonDATParser;
 		private var _graphicsDAT:GraphicsDATParser;
+		private var _mapping:Mapping;
 		private var queueCount:int = 0;
 		
 		public function DMData( _dungeonDATFileName:String, _graphicsDATFileName:String )
@@ -22,9 +24,17 @@ package data
 			graphicsDATFile = new File( File.applicationDirectory.nativePath + "/data/" + _graphicsDATFileName );
 			graphicsDATFile.addEventListener(Event.COMPLETE, dataFileLoadedHandler);
 			
+			mappingFile = new File( File.applicationDirectory.nativePath + "/data/map/_mapping.xml" );
+			mappingFile.addEventListener(Event.COMPLETE, mappingFileLoadedHandler);
+			
+		}
+
+		private function mappingFileLoadedHandler(event : Event) : void
+		{
+			_mapping = new Mapping( event.target.data );
 		}
 		
-		protected function dataFileLoadedHandler(event:Event):void
+		private function dataFileLoadedHandler(event:Event):void
 		{
 			trace( (event.currentTarget).name + " loaded");
 			
@@ -37,6 +47,7 @@ package data
 		
 		public function loadData():void
 		{
+			mappingFile.load();
 			dungeonDATFile.load();
 			graphicsDATFile.load();
 		}
@@ -59,6 +70,16 @@ package data
 		public function set graphicsDAT(graphicsDAT : GraphicsDATParser) : void
 		{
 			_graphicsDAT = graphicsDAT;
+		}
+
+		public function get mapping() : Mapping
+		{
+			return _mapping;
+		}
+
+		public function set mapping(mapping : Mapping) : void
+		{
+			_mapping = mapping;
 		}
 	}
 }
